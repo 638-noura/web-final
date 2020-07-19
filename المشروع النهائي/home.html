@@ -11,31 +11,36 @@
     />
     <link rel="stylesheet" href="home.css" />
     <link rel="stylesheet" href="fontawesome-free-5.13.1-web/css/all.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>الرئيسية</title>
   </head>
   <body>
+    <img class="logo" src="./img/logo.png" />
     <div class="container">
       <span class="menu-icon" onclick="openMenu()">&#9776;</span>
     </div>
     <div class="menu-container" id="navbar">
       <span class="closebtn" onclick="closeMenu()">&times;</span>
       <div class="menu-content">
-        <a href="./about.html"
+        <a href="./home.html"
           ><span class="bot"><i class="fas fa-home"></i></span>الصفحة
           الرئيسية</a
         >
-        <a href="#"
+        <a href="./halls.html"
           ><span class="bot"><i class="fas fa-hotel"></i></span>الصالات و
           القاعات</a
         >
-        <a href="#"
+        <a href="./artists.html"
           ><span class="bot"><i class="fas fa-microphone"></i></span>الفنانين</a
         >
-        <a href="#"
+        <a href="./tabel.html"
           ><span class="bot"><i class="fas fa-clipboard-list"></i></span>جدول
           الحجوزات</a
         >
-        <a href="#"
+        <a href="./services.html"
           ><span class="bot"><i class="fas fa-concierge-bell"></i></span>الخدمات
           الأخرى</a
         >
@@ -43,115 +48,62 @@
       </div>
     </div>
 
-    <!-- السيرششششش -->
-    <div class="search-box">
-      <input
-        class="search-txt"
-        type="text"
-        name=""
-        placeholder="type to search"
-      />
-      <a class="search-btn" href="#">
-        <i class="fas fa-search"></i>
-      </a>
-    </div>
     <!-- ----------------------------------------الفيديو----------------------------------- -->
     <div class="banner">
       <video autoplay muted loop>
         <source src="./img/عرضه.mp4" type="video/mp4" />
       </video>
-      <h2>بشنو نقدر نخدمك</h2>
+      <h2>بشنو نقدر نخدمك؟</h2>
     </div>
 
     <!-- --------------------سلايدات --------------------------- -->
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="./img/coffee.jpg" />
+          <img src="./img/قدام.jpg" />
           <div class="info">
-            <h5>####<br /><span>######</span></h5>
+            <h5>إجتماع مهم ؟<br /><span>نوفر لك الترتيب المناسب</span></h5>
           </div>
         </div>
         <div class="swiper-slide">
-          <img src="./img/coffee.jpg" />
+          <img src="./img/قدام3.jpg" />
           <div class="info">
-            <h5>####<br /><span>######</span></h5>
-          </div>
-        </div>
-
-        <div class="swiper-slide">
-          <img src="./img/coffee.jpg" />
-          <div class="info">
-            <h5>####<br /><span>######</span></h5>
+            <h5>خدمة سيارات؟<br /><span>لا تحاتي محد بينطر بالشمس</span></h5>
           </div>
         </div>
 
         <div class="swiper-slide">
-          <img src="./img/coffee.jpg" />
+          <img src="./img/قدام 4.jpg" />
           <div class="info">
-            <h5>####<br /><span>######</span></h5>
+            <h5>ليلة العمر؟<br /><span>خلها علينا</span></h5>
           </div>
         </div>
 
         <div class="swiper-slide">
-          <img src="./img/coffee.jpg" />
+          <img src="./img/قدام5.jpg" />
           <div class="info">
-            <h5>####<br /><span>######</span></h5>
+            <h5>إضاءات؟<br /><span>بنوّر لك المكان</span></h5>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="./img/logo.png" />
+          <div class="info">
+            <h5>كل هذا تحت سقف<br /><span>مناسباتكم</span></h5>
           </div>
         </div>
       </div>
       <!-- Add Pagination -->
       <div class="swiper-pagination"></div>
     </div>
-    <!-- ---------------السلايد الثاني --------------------------------------- -->
-    <div class="swiper-container-two">
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="./img/coffee.jpg" />
-            <div class="info">
-              <h5>####<br /><span>######</span></h5>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <img src="./img/coffee.jpg" />
-            <div class="info">
-              <h5>####<br /><span>######</span></h5>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <img src="./img/coffee.jpg" />
-            <div class="info">
-              <h5>####<br /><span>######</span></h5>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <img src="./img/coffee.jpg" />
-            <div class="info">
-              <h5>####<br /><span>######</span></h5>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <img src="./img/coffee.jpg" />
-            <div class="info">
-              <h5>####<br /><span>######</span></h5>
-            </div>
-          </div>
-        </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-      </div>
-    </div>
+    <!-- ---------------------------------------------------- -->
 
     <footer>
       <h3>موقع مناسباتكم . تحفظ حقوق النشر @2020</h3>
     </footer>
-
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="home.js"></script>
+
+    <script src="./home.js"></script>
   </body>
 </html>

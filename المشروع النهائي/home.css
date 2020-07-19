@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: none;
 }
 
 body {
@@ -11,44 +12,20 @@ body {
   background-color: #e5e5e5;
   flex-wrap: wrap;
   display: flex;
+  font-family: "Almarai", sans-serif;
 }
 /* الناف بكبرة */
-header {
-  background: linear-gradient(rgba(0, 0, 100, 0.5), rgba(0, 0, 100, 0.5)),
-    url("./img/wall.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-nav {
-  position: fixed;
-  width: 100%;
-  line-height: 60px;
-  height: 80px;
-}
-nav ul {
-  float: right;
-  margin: 0;
-  padding-right: 42;
-}
-nav ul li {
-  display: inline-block;
-  padding: 16px 32px;
-}
-nav ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 16px;
-}
+
 .logo {
   height: 50px;
+  width: 50px;
   float: left;
-  margin: 16px 48px;
   border-radius: 50%;
-  margin-top: 12px;
+  margin-top: 16px;
+  margin-left: 1200px;
 }
 nav.black {
-  background: #fca311;
+  background: rgba(252, 163, 17, 0.7);
 }
 /* --------------------------------------------------------------------- */
 /* الهمبرقر */
@@ -62,7 +39,7 @@ nav.black {
   position: absolute;
   color: #2f3640;
   font-size: 43px;
-  left: 150px;
+  left: 110px;
   top: 10px;
   cursor: pointer;
   z-index: 1000;
@@ -108,57 +85,14 @@ nav.black {
   z-index: 1000;
   cursor: pointer;
 }
-/* السيرج بوكس */
-.search-box {
-  position: absolute;
-  top: 38px;
-  right: 180px;
-  transform: translate(-50%, -50%);
-  background: #2f3640;
-  height: 40px;
-  border-radius: 40px;
-  padding: 10px;
-}
-.search-box:hover > .search-txt {
-  width: 240px;
-  padding: 0 6px;
-}
-.search-box:hover > .search-btn {
-  background: white;
-}
-.search-btn {
-  color: #fca311;
-  float: right;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: #2f3640;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.4s;
-  margin-top: -10px;
-}
-.search-txt {
-  border: none;
-  background: none;
-  outline: none;
-  float: left;
-  padding: 0;
-  color: white;
-  font-size: 16px;
-  transition: 0.4s;
-  line-height: 40px;
-  width: 0px;
-  margin-top: -10px;
-}
 
 /* ------------------------------السلايدات------------------------ */
 
 .swiper-container {
-  width: 100%;
+  width: 800px;
   padding-top: 80px;
-  margin-top: 450px;
+  margin-top: 340px;
+  height: 450px;
 }
 .swiper-container-two {
   margin-top: -400px;
@@ -188,11 +122,11 @@ nav.black {
   background: rgba(0, 0, 0, 0.685);
   font-size: 20px;
   font-weight: bold;
-  color: #fff;
+  color: #e5e5e5;
 }
 .info span {
   font-size: 15px;
-  color: red;
+  color: #fca311;
   font-weight: bold;
 }
 
@@ -218,23 +152,24 @@ footer h3 {
 /* --------------------------------------------------الفيديو------------------------------------ */
 .banner {
   position: absolute;
-  width: 850px;
-  height: 150px;
+  width: 100%;
+  height: 200px;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 280px;
-  margin-left: 270px;
+  margin-top: 140px;
+  margin-left: 0px;
 }
 .banner video {
   position: absolute;
   top: 0;
   left: 0;
-  width: 850px;
-  height: 150px;
+  width: 100%;
+  height: 200px;
   object-fit: cover;
   line-height: 150px;
+  visibility: visible;
 }
 
 .banner h2 {
@@ -242,11 +177,13 @@ footer h3 {
   top: 0;
   left: 0;
   width: 100%;
-  background: #fff;
+  background: #e5e5e5;
   font-size: 150px;
   text-align: center;
   text-transform: uppercase;
   color: #000;
   line-height: 150px;
   mix-blend-mode: screen;
+  visibility: visible;
 }
+/* ----------------------- */

@@ -11,7 +11,7 @@ body {
   padding: 60px;
 }
 .card {
-  margin-top: 86px;
+  margin-top: 33px;
   display: grid;
   grid-template-columns: 250px;
   grid-template-rows: 160px 160px 70px;

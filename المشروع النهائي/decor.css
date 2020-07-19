@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  height: 100%;
+  background-image: linear-gradient(to top, #2f3640 0%, #fca311 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Almarai", sans-serif;
+}
+h1 {
+  margin-top: 300px;
+  margin-left: 600px;
+}

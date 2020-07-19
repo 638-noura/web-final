@@ -8,7 +8,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.container-light {
+.container-park {
   position: relative;
   width: 1100px;
   display: flex;
@@ -16,8 +16,10 @@ body {
   align-items: center;
   flex-wrap: wrap;
   padding: 30px;
+  margin-top: 100px;
+  padding-bottom: 125px;
 }
-.container-light .card {
+.container-park .card {
   position: relative;
   max-width: 300px;
   height: 215px;
@@ -28,10 +30,10 @@ body {
   box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in-out;
 }
-.container-light .card:hover {
+.container-park .card:hover {
   height: 420px;
 }
-.container-light .card .imgBx {
+.container-park .card .imgBx {
   position: relative;
   width: 260px;
   height: 26opx;
@@ -40,11 +42,11 @@ body {
   z-index: 1;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
-.container-light .card .imgBx img {
+.container-park .card .imgBx img {
   max-width: 100%;
   border-radius: 4px;
 }
-.container-light .card .content {
+.container-park .card .content {
   position: relative;
   margin-top: -140px;
   padding: 10px 15px;
@@ -54,7 +56,7 @@ body {
   opacity: 0;
   transition: 0.3 ease-in-out;
 }
-.container-light .card:hover .content {
+.container-park .card:hover .content {
   visibility: visible;
   opacity: 1;
   margin-top: -40px;
