@@ -1,0 +1,111 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./img/hall2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.booking-form-box {
+  max-width: 360px;
+  height: 500px;
+  border: 3px solid #ced4da;
+  border-radius: 7px;
+  margin: 10% auto 0;
+  padding-bottom: 90px;
+  margin-bottom: 98px;
+  margin-right: 520px;
+}
+.radio-btn {
+  margin: 0 20px;
+  margin-top: 30px;
+}
+.radio-btn .btn {
+  margin: 20px 10px 20px 0;
+  box-shadow: none;
+}
+.radio-btn .btn::after {
+  content: "";
+  height: 15px;
+  width: 15px;
+  top: -2px;
+  left: -1px;
+  background-color: #fff;
+  position: relative;
+  display: inline-block;
+  border: 3px solid #fff;
+  visibility: visible;
+  border-radius: 50%;
+}
+.radio-btn .btn:checked::after {
+  content: "";
+  background-color: #fca311;
+  transition: 0.5s;
+}
+.radio-btn span {
+  color: #fff;
+  margin-right: 5px;
+  font-size: 12px;
+}
+.boking-form {
+  padding: 0 20px 20px;
+  margin-top: 30px;
+}
+.boking-form label {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #fff;
+}
+input::placeholder {
+  color: #fff !important;
+}
+.input-grp {
+  width: 151px;
+  display: inline-block;
+}
+.custom-grap {
+  color: #2f3640;
+}
+
+.form-control {
+  font-size: 12px !important;
+  border-radius: 8px !important;
+  background: #fff !important;
+  box-shadow: 0 0 10px 2px rgba(51, 48, 48, 0.2) !important;
+}
+.select-date::-webkit-inner-spin-button
+  .select-date::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.select-date::-webkit-calender-picker-indicator {
+  background: transparent !important;
+}
+.custom-select {
+  color: #000000 !important;
+  font-size: 12px !important;
+  border: 1px solid #ced4da !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+.custom-select option {
+  color: #2f3640;
+}
+.flight {
+  width: 100%;
+  padding: 9px 0 !important;
+  font-size: 12px !important;
+  border: 1px solid #fca311 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+.flight:hover {
+  background: #fca311 !important;
+  color: #000 !important;
+  transition: 0.5s;
+}
+.tadel {
+  margin-top: 70px;
+  margin-left: 80px;
+}

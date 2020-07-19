@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="try.css" />
+    <link rel="stylesheet" href="fontawesome-free-5.13.1-web/css/all.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img class="logo" src="./img/logo.png" />
+        <div class="container">
+          <span class="menu-icon" onclick="openMenu()">&#9776;</span>
+        </div>
+        <div class="menu-container" id="navbar">
+          <span class="closebtn" onclick="closeMenu()">&times;</span>
+          <div class="menu-content">
+            <a href="./about.html"
+              ><span class="bot"><i class="fas fa-home"></i></span>الصفحة
+              الرئيسية</a
+            >
+            <a href="#"
+              ><span class="bot"><i class="fas fa-hotel"></i></span>الصالات و
+              القاعات</a
+            >
+            <a href="#"
+              ><span class="bot"><i class="fas fa-microphone"></i></span
+              >الفنانين</a
+            >
+            <a href="#"
+              ><span class="bot"><i class="fas fa-clipboard-list"></i></span
+              >جدول الحجوزات</a
+            >
+            <a href="#"
+              ><span class="bot"><i class="fas fa-concierge-bell"></i></span
+              >الخدمات الأخرى</a
+            >
+            <a href="./about.html"><span></span>عن الموقع</a>
+          </div>
+        </div>
+        <div class="menu-all">
+          <ul>
+            <li>
+              <a href="#"
+                ><div class="search-box">
+                  <input
+                    class="search-txt"
+                    type="text"
+                    name=""
+                    placeholder="type to search"
+                  />
+                  <a class="search-btn" href="#">
+                    <i class="fas fa-search"></i>
+                  </a></div
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div>
+      الفِيزِيَاءُ أو الفِيزِيقَا (بالإغريقية: φυσική)، وبالعربيّة الطبيعيَّات
+      أو علم الطبيعة هو العلم الذي يدرس المفاهيم الأساسية مثل الطاقة، القوة،
+      والزمان، وكل ما ينبع من هذا، مثل الكتلة، المادة وحركتها. وعلى نطاق أوسع،
+      هو التحليل العام للطبيعة، والذي يهدف إلى فهم كيف يعمل الكون. وتحاول
+      الفيزياء أن تفهم الظواهر الطبيعية والقوى والحركة المؤثرة في سيرها، وصياغة
+      المعرفة في قوانين لا تفسر العمليات السالفة فقط بل التنبؤ بمسيرة العمليات
+      الطبيعية بنماذج تقترب رويدا رويدا من الواقع. يعتبر علم الفيزياء من أحد
+      أقدم التّخصصات الأكاديمية، فهي قد بدأت بالبزوغ منذ العصور الوسطى وتميزت
+      كعلم حديث في القرن السابع عشر، وباعتبار أن أحد فروعها، وهو علم الفلك، يعد
+      من أعرق العلوم الكونية على الإطلاق. خلال معظم الألفي سنة الماضية، كانت
+      الفيزياء والكيمياء وعلم الأحياء وبعض فروع الرياضيات، جزءً من الفلسفة
+      الطبيعية، ولكن خلال الثورة العلمية في القرن السابع عشر ظهرت هذه العلوم
+      الطبيعية كمساعي بحثية فريدة في حد ذاتها. تتقاطع الفيزياء مع العديد من
+      مجالات البحث متعددة التخصصات، مثل الفيزياء الحيوية والكيمياء الكمومية،
+      وحدود الفيزياء التي لم يتم تعريفها بشكل صارم. غالبًا ما تشرح الأفكار
+      الجديدة في الفيزياء الآليات الأساسية التي تدرسها علوم أخرى وتقترح طرقًا
+      جديدة للبحث في التخصصات الأكاديمية مثل الرياضيات والفلسفة.
+    </div>
+    <script src="home.js"></script>
+    <script type="text/javascript">
+      $(window).on("scroll", function () {
+        if ($(window).scrollTop()) {
+          $("nav").addClass("black");
+        } else {
+          $("nav").removeClass("black");
+        }
+      });
+    </script>
+  </body>
+</html>

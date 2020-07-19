@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+}
+
+.container-about {
+  width: 900px;
+  margin: o auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 244px;
+  padding-bottom: 200px;
+}
+
+.container-about .box {
+  text-align: center;
+}
+.container-about .box .icon .fab,
+.container-about .box .icon .fas {
+  font-size: 80px;
+  cursor: pointer;
+}
+.container-about .box .icon h3,
+.container-about .box .icon h4 {
+  position: relative;
+  overflow: hidden;
+  font-weight: 400;
+  margin: 0;
+  padding: 2px 5px;
+  font-size: 24px;
+  transition-delay: 0.3333s;
+  color: transparent;
+}
+.container-about .box .fab:hover ~ h3,
+.container-about .box .fab:hover ~ h4,
+.container-about .box .fas:hover ~ h3,
+.container-about .box .fas:hover ~ h4 {
+  color: #000;
+}
+.container-about .box .icon h4 {
+  font-weight: 600;
+  margin: 5px 0;
+  font-style: 30px;
+}
+.container-about .box .icon h3::before,
+.container-about .box .icon h4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  background: #fca311;
+  transition: 1s;
+}
+.container-about .box .icon h4::before {
+  left: initial;
+  right: 100%;
+  background: #14213d;
+}
+.container-about .box .fab:hover ~ h3::before,
+.container-about .box .fas:hover ~ h3::before {
+  left: -100%;
+}
+.container-about .box .fab:hover ~ h4::before,
+.container-about .box .fas:hover ~ h4::before,
+.container-about-two .box .fab:hover ~ h4::before,
+.container-about-two .box .fas:hover ~ h4::before {
+  left: initial;
+  right: -100%;
+}
